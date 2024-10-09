@@ -1,5 +1,6 @@
 {{ $time := now }}
 {{ $styles := resources.Get "css/main.css"
+    | css.TailwindCSS
     | postCSS (dict "config" "./postcss.config.js")
     | resources.ExecuteAsTemplate (printf "styles.%s.css" $time) $time
 }}

@@ -1,6 +1,6 @@
 {{ $time := now }}
 {{ $styles := resources.Get "css/main.css"
-    | postCSS
+    | postCSS (dict "config" "../../postcss.config.js")
 }}
 
 {{ if hugo.IsServer }}

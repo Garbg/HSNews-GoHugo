@@ -1,10 +1,10 @@
 {{ with resources.Get "css/main.css" | postCSS}}
 {{ $opts := dict "minify" true }}
 {{ if hugo.IsServer }}
-    <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
 {{ else }}
     {{ $styles := $styles | fingerprint | resources.PostCSS }}
-    <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
 {{ end }}
 {{ end}}
 <meta charset="utf-8">

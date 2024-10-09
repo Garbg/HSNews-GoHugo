@@ -1,5 +1,5 @@
 {{ $styles := resources.Get "css/main.css" 
-| css.PostCSS
+| css.PostCSS(dict "inlineImports" true)
 | minify
 }}
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}">

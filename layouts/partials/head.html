@@ -1,7 +1,7 @@
 {{ $time := now }}
-{{ $styles := resources.Get "css/styles.scss"
-    | toCSS
+{{ $styles := resources.Get "css/styles.css"
     | postCSS (dict "config" "./postcss.config.js")
+    | resources.ExecuteAsTemplate (printf "styles.%s.css" $time) $time
 }}
 
 {{ if .Site.IsServer }}

@@ -5,6 +5,7 @@ module.exports = {
 		"./content/**/*.{html,md}",
 		"./themes/**/layouts/**/*.html",
 		"./themes/**/content/**/*.{html,md}",
+    "./hugo_stats.json"
 	],
 	theme: {
 		extend: {},

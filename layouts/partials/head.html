@@ -1,6 +1,5 @@
 {{ $styles := resources.Get "css/main.css" 
 | css.PostCSS
-| minify
 | resources.PostProcess
 }}
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}">

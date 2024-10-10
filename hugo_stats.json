@@ -1,0 +1,22 @@
+{
+  "htmlElements": {
+    "tags": [
+      "body",
+      "footer",
+      "h1",
+      "head",
+      "header",
+      "html",
+      "link",
+      "main",
+      "meta",
+      "p",
+      "script",
+      "title"
+    ],
+    "classes": [
+      "text-4xl"
+    ],
+    "ids": null
+  }
+}

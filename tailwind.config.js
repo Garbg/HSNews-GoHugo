@@ -7,7 +7,15 @@ module.exports = {
 		colors: {
 			primary: colors.blue["600"],
 		},
-		extend: {},
+		extend: {
+			typography: ({ theme }) => ({
+				custom: {
+					css: {
+						"--tw-prose-body": theme("colors.black"),
+					},
+				},
+			}),
+		},
 	},
 	plugins: [require("@tailwindcss/typography")],
 };

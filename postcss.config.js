@@ -7,7 +7,7 @@ module.exports = {
     tailwind,
     require('autoprefixer'),
     purgecss({
-      content: ['./layouts/**/*.html']
+      content: ['./layouts/**/*.html', './themes/**/layouts/**/*.html']
     })
   ]
 }

@@ -15,6 +15,7 @@
       "title"
     ],
     "classes": [
+      "px-2",
       "text-4xl"
     ],
     "ids": null

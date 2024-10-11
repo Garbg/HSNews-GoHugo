@@ -9,6 +9,7 @@ module.exports = {
 		require("autoprefixer"),
 		purgecss({
 			content: ["./layouts/**/*.html", "./themes/**/layouts/**/*.html"],
+      safelist: ["w-1/2"]
 		}),
 	],
 };

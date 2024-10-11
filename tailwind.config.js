@@ -8,10 +8,10 @@ module.exports = {
 			primary: colors.blue["600"],
 		},
 		extend: {
-			typography: ({ theme }) => ({
+			typography: ({
 				custom: {
 					css: {
-						"--tw-prose-body": theme("colors.black"),
+						"--tw-prose-body": colors.black,
 					},
 				},
 			}),

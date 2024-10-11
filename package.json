@@ -1,21 +1,22 @@
 {
-  "name": "HSNews-GoHugo",
-  "version": "1.0.0",
-  "description": "A Hugo theme designed for high school newspapers",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "packageManager": "pnpm@9.12.0+sha512.4abf725084d7bcbafbd728bfc7bee61f2f791f977fd87542b3579dcb23504d170d46337945e4c66485cd12d588a0c0e570ed9c477e7ccdd8507cf05f3f92eaca",
-  "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^6.0.0",
-    "autoprefixer": "^10.4.20",
-    "browserslist": "^4.24.0",
-    "postcss": "^8.4.47",
-    "postcss-cli": "^11.0.0",
-    "tailwindcss": "^3.4.13"
-  }
+	"name": "HSNews-GoHugo",
+	"version": "1.0.0",
+	"description": "A Hugo theme designed for high school newspapers",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"packageManager": "pnpm@9.12.0+sha512.4abf725084d7bcbafbd728bfc7bee61f2f791f977fd87542b3579dcb23504d170d46337945e4c66485cd12d588a0c0e570ed9c477e7ccdd8507cf05f3f92eaca",
+	"devDependencies": {
+		"@biomejs/biome": "1.9.3",
+		"@fullhuman/postcss-purgecss": "^6.0.0",
+		"autoprefixer": "^10.4.20",
+		"browserslist": "^4.24.0",
+		"postcss": "^8.4.47",
+		"postcss-cli": "^11.0.0",
+		"tailwindcss": "^3.4.13"
+	}
 }

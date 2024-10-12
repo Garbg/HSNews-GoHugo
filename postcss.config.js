@@ -10,6 +10,7 @@ module.exports = {
 		require("autoprefixer"),
 		purgecss({
 			content: ["./layouts/**/*.html", "./themes/**/layouts/**/*.html"],
+      safelist: ["code"],
 			extractors: [
 				{
 					extractor: purgeHtml,

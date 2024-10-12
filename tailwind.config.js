@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 const colors = require("tailwindcss/colors");
-const primarycol = colors.blue["600"]
+const primarycol = colors.blue["600"];
 module.exports = {
 	content: ["./layouts/**/*.html", "./themes/**/layouts/**/*.html"],
 	theme: {
@@ -12,7 +12,7 @@ module.exports = {
 				custom: {
 					css: {
 						"--tw-prose-body": colors.black,
-						'--tw-prose-links': primarycol,
+						"--tw-prose-links": primarycol,
 					},
 				},
 			},

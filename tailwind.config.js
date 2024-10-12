@@ -12,6 +12,7 @@ module.exports = {
 				custom: {
 					css: {
 						"--tw-prose-body": colors.black,
+						'--tw-prose-links': colors.primary,
 					},
 				},
 			},

@@ -11,7 +11,7 @@ module.exports = {
 			typography: {
 				custom: {
 					css: {
-						"--tw-prose-body": colors.black,
+						"--tw-prose-body": colors.red["500"],
 						"--tw-prose-links": primarycol,
 					},
 				},

@@ -5,6 +5,10 @@
 $primary: #2563eb;
 $subelementbg: #f5f5f5;
 
+@font-face {
+    font-family: "Lora";
+    src: url("woff2/Lora/Lora.woff2"), format("woff2");
+}
 article p {
     a {
         color: $primary;
@@ -15,4 +19,8 @@ article p {
         padding: 4px;
         border-radius: 4px;
     }
+}
+
+.lora {
+    font-family: "Lora", serif;
 }

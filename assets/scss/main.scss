@@ -3,10 +3,15 @@
 @tailwind utilities;
 
 $primary: #2563eb;
+$subelementbg: #a3a3a3;
 
 article p {
     a {
         color: $primary;
         text-decoration-line: underline;
+    }
+    code {
+        background-color: $subelementbg;
+        padding: 4px;
     }
 }

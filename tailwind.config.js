@@ -9,10 +9,13 @@ module.exports = {
 		},
 		extend: {
 			typography: {
-				custom: {
+				DEFAULT: {
 					css: {
 						"--tw-prose-body": colors.black,
 						"--tw-prose-links": primarycol,
+						a: {
+							color: primarycol,
+						}
 					},
 				},
 			},

@@ -8,13 +8,13 @@ module.exports = {
 			primary: colors.blue["600"],
 		},
 		extend: {
-			typography: ({
+			typography: {
 				custom: {
 					css: {
 						"--tw-prose-body": colors.black,
 					},
 				},
-			}),
+			},
 		},
 	},
 	plugins: [require("@tailwindcss/typography")],

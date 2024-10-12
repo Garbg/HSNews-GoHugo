@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 $primary: #2563eb;
-$subelementbg: #a3a3a3;
+$subelementbg: #f5f5f5;
 
 article p {
     a {
@@ -13,5 +13,6 @@ article p {
     code {
         background-color: $subelementbg;
         padding: 4px;
+        border-radius: 2px;
     }
 }

@@ -13,9 +13,6 @@ module.exports = {
 					css: {
 						"--tw-prose-body": colors.black,
 						"--tw-prose-links": primarycol,
-						a: {
-							color: primarycol,
-						}
 					},
 				},
 			},

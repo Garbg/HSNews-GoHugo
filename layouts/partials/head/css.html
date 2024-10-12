@@ -1,4 +1,5 @@
-{{- with resources.Get "scss/main.css" | toCSS dict "transpiler" "libsass" "targetPath" "css/style.css" | postCSS | minify | resources.PostProcess}}
+{{ $sassopts := dict "transpiler" "libsass" "targetPath" "css/style.css" }}
+{{- with resources.Get "scss/main.css" | toCSS $sassopts | postCSS | minify | resources.PostProcess}}
   {{- if eq hugo.Environment "development" }}
     <link rel="stylesheet" href="{{ .RelPermalink }}">
   {{- else }}

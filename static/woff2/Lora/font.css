@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Lora";
+    src: url("/woff2/Lora/Lora.woff2"), format("woff2");
+}
+@font-face {
+    font-family: "Lora";
+    font-style: italic;
+    src: url("/woff2/Lora/Lora-italic.woff2"), format("woff2");
+}

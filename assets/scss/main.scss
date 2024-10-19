@@ -9,8 +9,9 @@ $subelementbg: #f5f5f5;
 $titlefonts: "Lora", serif;
 $contentfonts: "InterVariable", "Inter", sans-serif;
 
+font-family: $contentfonts;
+
 article p {
-    font-family: $contentfonts;
     a {
         color: $primary;
         text-decoration-line: underline;

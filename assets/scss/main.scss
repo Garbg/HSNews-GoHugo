@@ -20,14 +20,12 @@ article p {
         color: $primary;
         text-decoration-line: underline;
     }
-    code {
-        font-family: $codefonts;
-        background-color: $subelementbg;
-        padding: 4px;
-        border-radius: 4px;
-    }
 }
 
 .title {
     font-family: $titlefonts;
+}
+
+.hljs {
+    font-family: $codefonts;
 }

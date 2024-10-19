@@ -1,5 +1,5 @@
-@import "../woff2/Inter/font.css";
-@import "../woff2/Lora/font.css";
+@import url("/woff2/Inter/font.css");
+@import url("/woff2/Lora/font.css");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

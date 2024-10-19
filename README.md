@@ -14,5 +14,3 @@ The project is very much a **work in progress** right now and should not be used
 * [Website](https://rsms.me/inter/)
 * [Google fonts page](https://fonts.google.com/specimen/Inter)
 * [Source code on github](https://github.com/rsms/inter)
-### Tool used to generate css for fonts
-[Webfont kit generator](https://github.com/rafaelmardojai/webfont-kit-generator)
